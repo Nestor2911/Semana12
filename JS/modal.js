@@ -21,7 +21,7 @@
     }
     this.elementAccept.onclick = () => {
       this.close()
-      alert("Mensaje Aceptado");
+     // alert("Mensaje Aceptado");
 
     }
     this.elementCancel.onclick = () => {

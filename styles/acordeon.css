@@ -1,12 +1,14 @@
 body{
-    background:#ff7f50;
-    font-family:'Montserrat',sans-serif;
-  }
-  h1{
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    padding: 30PX;
+  background:rgb(78, 74, 74);
+  font-family:'Montserrat',sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  padding: 30PX;
+  color: aliceblue;
 }
     h3 {
       background:#221e1c;
@@ -63,18 +65,7 @@ body{
       float:right;
       font-size:18px
   }
-    button {
-  
-      width: 300px;
-      color: white;
-      font-weight: 700;
-      font-size: 16px;
-      background-color: rgb(41, 156, 80);
-      padding: 20px;
-      margin: 0px 20px;
-      border-radius: 10px;
-      cursor: pointer;
-    }
+ 
   
     .home {
       width: 100px;

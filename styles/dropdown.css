@@ -1,12 +1,14 @@
 body{
-    background:#ff7f50;
+    background:rgb(78, 74, 74);
     font-family:'Montserrat',sans-serif;
-}
+  }
+
 h1{
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     padding: 30PX;
+    color: aliceblue;
 }
 .menu{
     width:260px;
@@ -41,7 +43,7 @@ i{
     transition:all .5s
 }
 .desplegado{
-    max-height:150px
+    max-height:250px
 }
 .arrow{
     border-left:10px solid transparent;
@@ -62,7 +64,7 @@ i{
 }
 
 .r:hover{
-    background:#ff7f50;    
+    background:rgb(78, 74, 74);    
     color:rgba(255,255,255,0.8);
     box-shadow:0 0 30px -10px #000
 }

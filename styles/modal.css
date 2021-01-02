@@ -1,5 +1,5 @@
 body{
-  background:#ff7f50;
+  background:rgb(78, 74, 74);
   font-family:'Montserrat',sans-serif;
 }
 
@@ -8,8 +8,8 @@ h1{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
   padding: 30PX;
+  color: aliceblue;
 }
-
   .modal {
       background: #808080;
       position: fixed;
@@ -73,7 +73,7 @@ h1{
       color: white;
       font-weight: 700;
       font-size: 16px;
-      background-color: rgb(41, 156, 80);
+      background-color: rgb(41, 77, 156);
       padding: 20px;
       margin: 0px 20px;
       border-radius: 10px;
