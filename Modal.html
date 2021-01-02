@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./fonts/css/all.css">
+  <link rel="stylesheet" href="./styles/modal.css">
+  
+</head>
+
+<body>
+  <h1>MODAL</h1>
+  <button class="btnmodal">ABRIR MODAL</button>
+  <div class="modal js_modal">
+    <div class="modal__template">
+      <header class="modal__header">
+        Modal
+        <span class="close js_close">X</span>
+      </header>
+      <div class="modal__body">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi officiis, magnam laboriosam maiores nihil
+          maxime. Hic eos iure cum ut labore distinctio? Corporis accusantium aliquam laudantium tenetur optio pariatur
+          nisi.</p>
+      </div>
+      <footer class="modal__footer">
+        <button class="js_accept">ACEPTAR</button>
+        <button class="js_cancel">CANCELAR</button>
+      </footer>
+    </div>
+  </div>
+</body>
+<footer>
+  <button class="home" onclick="location.href='index.html'"><i class="fas fa-home"></i></button>
+</footer>
+<script src="./JS/modal.js"></script>
+</html>
