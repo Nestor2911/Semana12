@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordeón</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./fonts/css/all.css">
+    <link rel="stylesheet" href="./styles/acordeon.css">
+    <script src="./JS/acordeon.js"></script>
+</head>
+<body>
+    <h1>ACORDEÓN</h1>
+    <div id="acordeon">
+        <h3 onclick="abrirCerrar('sec1','hdr1')" id="hdr1" class="activa">Sección 1</h3>
+        <div id="sec1" class="activa">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolor nostrum ullam inventore
+                aliquam ea reiciendis vel soluta minus, qui sunt laboriosam labore, quae assumenda nihil repudiandae?
+                Aperiam, ipsa temporibus.</p>
+        </div>
+        <h3 onclick="abrirCerrar('sec2','hdr2')" id="hdr2" class="inactiva">Sección 2</h3>
+        <div id="sec2" class="inactiva">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolor nostrum ullam inventore
+                aliquam ea reiciendis vel soluta minus, qui sunt laboriosam labore, quae assumenda nihil repudiandae?
+                Aperiam, ipsa temporibus.</p>
+        </div>
+        <h3 onclick="abrirCerrar('sec3','hdr3')" id="hdr3" class="inactiva">Sección 3</h3>
+        <div id="sec3" class="inactiva">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolor nostrum ullam inventore
+                aliquam ea reiciendis vel soluta minus, qui sunt laboriosam labore, quae assumenda nihil repudiandae?
+                Aperiam, ipsa temporibus.</p>
+        </div>
+        <h3 onclick="abrirCerrar('sec4','hdr4')" id="hdr4" class="inactiva">Sección 4</h3>
+        <div id="sec4" class="inactiva">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolor nostrum ullam inventore
+                aliquam ea reiciendis vel soluta minus, qui sunt laboriosam labore, quae assumenda nihil repudiandae?
+                Aperiam, ipsa temporibus.</p>
+        </div>
+    </div>
+</body>
+<footer>
+    <button class="home" onclick="location.href='index.html'"><i class="fas fa-home"></i></button>
+</footer>
+</html>
